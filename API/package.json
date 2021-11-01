@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for viaduct",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "oleg",
+  "license": "ISC",
+  "dependencies": {
+    "@derhuerst/query-overpass": "^2.0.0",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "query-overpass": "^1.5.5",
+    "transliteration": "^2.2.0"
+  }
+}

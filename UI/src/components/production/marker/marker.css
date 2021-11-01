@@ -1,0 +1,26 @@
+.station {
+    content: '';
+    display: block;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width:50%;
+    height: 50%;
+    border-radius: 70%;
+    background-color: transparent;
+    border: 3px solid #FFF;
+    
+    box-sizing: border-box;
+    
+}
+
+.popup .leaflet-popup-content-wrapper{
+    
+}
