@@ -1,12 +1,16 @@
 const express = require('express')
 const mongoose = require('mongoose')
 
+require('dotenv').config()
+
+const uri = process.env.MONGO_URI
+
 
 const app = express()
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://svinni:svinni1@cluster0.b4lxo.mongodb.net/viaduct?retryWrites=true&w=majority',
+mongoose.connect(uri,
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
